@@ -1,0 +1,75 @@
+button {
+  background: var(--bg-secondary);
+  cursor: pointer;
+  color: var(--text-secondary);
+  width: 160px;
+  height: 50px;
+
+  border: 2px solid var(--border);
+  border-radius: 16px;
+
+  padding: 16px;
+
+  transition: all 0.3s ease;
+}
+
+.back-button {
+  background: var(--bg-secondary);
+}
+
+.forward-button {
+  background: var(--primary-soft);
+  color: var(--text-primary);
+}
+
+.dark-mode-button {
+  background: var(--bg-secondary);
+  margin-left: 50px;
+}
+
+button:active {
+  scale: 0.9;
+}
+
+header {
+  background-color: var(--bg-card);
+  padding: 0px max(calc(50% - 720px), 32px);
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links > a {
+  color: var(--text-secondary);
+  text-decoration: none;
+
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  transition: all 0.3s linear;
+}
+
+.nav-links > a:hover {
+  color: var(--primary);
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 5px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+
+  display: flex;
+  gap: 48px;
+}
+
+main {
+  padding: 0px max(calc(50% - 720px), 32px);
+}
+
+footer {
+  padding: 0px max(calc(50% - 720px), 32px);
+}

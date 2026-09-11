@@ -1,0 +1,23 @@
+:root {
+  /* Hintergrund */
+  --bg-main: #08151d;
+  --bg-card: #101f29;
+  --bg-secondary: #162731;
+
+  /* Grün / Akzent */
+  --primary: #2ee6a6;
+  --primary-dark: #0dbb83;
+  --primary-soft: #18d99a;
+
+  /* Text */
+  --text-primary: #f5f7f8;
+  --text-secondary: #b8c1c7;
+
+  /* Rahmen */
+  --border: #29404d;
+
+  /* Status */
+  --correct: #2ee6a6;
+  --wrong: #ff5252;
+  --info: #20c5e8;
+}

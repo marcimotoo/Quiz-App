@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <!-- import  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/assets.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- script  -->
+    <script src="./scripts/db.js" defer></script>
+    <script src="./scripts/template.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body onload="init()">
+    <header>
+      <nav>
+        <h1>Quiz <span>App</span></h1>
+        <div class="nav-links">
+          <a href="">Home</a>
+          <a href=""> Kategorien</a>
+          <a href="">Über</a>
+          <button class="dark-mode-button">Dark Mode</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="progress-section">
+        <div>30%</div>
+      </section>
+      <section class="quiz-section">
+        <article id="quiz-section" class="quiz-article"></article>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
